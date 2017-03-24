@@ -1,0 +1,15 @@
+{
+  "name": "testcafe-functional-testing",
+  "version": "1.0.0",
+  "description": "Testcafe functional testing boilerplate",
+  "main": "",
+  "repository": "git@github.com:dbaronov/testcafe-functional-testing.git",
+  "scripts": {
+    "start": "testcafe chrome,firefox tests/clearing-widget.js --reporter list --screenshots='reports/screenshots'"
+  },
+  "author": "Deniss Baronov",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
